@@ -1,0 +1,3 @@
+# Tailscale notes
+
+Placeholder.

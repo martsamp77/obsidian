@@ -1,0 +1,3 @@
+# Eddie notes
+
+Placeholder.

@@ -1,0 +1,3 @@
+# YouTube monetization
+
+Placeholder.

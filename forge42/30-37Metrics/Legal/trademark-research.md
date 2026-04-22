@@ -1,0 +1,3 @@
+# Trademark research
+
+Placeholder.
