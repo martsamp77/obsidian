@@ -48,6 +48,67 @@ Key decisions:
 
 ---
 
+## [2026-04-19] update | Vault audit — filled 30 empty/incomplete files from existing vault knowledge
+
+Full audit of ~159 vault files found ~57 empty stubs and ~53 partial files. Filled all derivable pages using `my-stack.md` (primary infrastructure source), `brand-graphics.md`, `CLAUDE.md`, and existing strategy/brand documents as sources.
+
+Pages created (from empty stubs):
+
+Infrastructure:
+- `40-Forge42/Architecture/architecture.md` — Forge42 system architecture with diagram and decision log
+- `40-Forge42/Architecture/ai-orchestration.md` — AI stack layers: LiteLLM, OpenRouter, mem0, AnythingLLM
+- `40-Forge42/Architecture/luna-plan.md` — LUNA hardware specs + 8-phase implementation checklist
+- `40-Forge42/Architecture/ai-org-structure.md` — redirect to agent-org-chart.md (redundant page)
+- `40-Forge42/Machines/machine-inventory.md` — all machines with IPs and RustDesk IDs
+- `40-Forge42/Machines/tailscale-map.md` — Tailscale VPN network and subnet router setup
+- `40-Forge42/Stack/docker-services.md` — complete service inventory organized by tier
+- `40-Forge42/Stack/litellm-config.md` — LiteLLM gateway config and routing strategy
+- `40-Forge42/Stack/model-catalog.md` — all LLM models available through LiteLLM
+- `40-Forge42/Runbooks/backup-recovery.md` — 3-2-1 backup strategy and restore procedures
+- `40-Forge42/Runbooks/docker-commands.md` — Docker CLI and Compose reference
+- `40-Forge42/Runbooks/incident-response.md` — service outage runbook with severity levels
+
+Pages updated (from partial content):
+- `40-Forge42/Machines/home-network.md` — expanded with machine roles, service ports, DNS notes
+- `40-Forge42/Machines/aurora.md` — expanded with disk inventory table and role description
+
+Templates filled (from empty stubs):
+- `02-Templates/meeting-note.md` — agenda, notes, decisions, action items
+- `02-Templates/content-idea.md` — brand, platform, format, hook, status
+- `02-Templates/consulting-engagement.md` — 37Metrics LLC invoicing context, session log
+- `02-Templates/tool-evaluation.md` — pros/cons scorecard with Forge42 stack fit section
+- `02-Templates/weekly-review.md` — per-brand sections + health + next week priorities
+- `02-Templates/project-brief.md` — pre-handoff one-pager tied to handoff package workflow
+
+Brand & Content:
+- `10-Dimension42/Brand/brand-guidelines.md` — D42 color palette, voice, logo concepts
+- `10-Dimension42/Website/sitemap.md` — dimension42.ai page structure
+- `10-Dimension42/Content/youtube-ideas.md` — 30+ video ideas across 5 D42 content pillars
+- `20-MartySampson/Website/sitemap.md` — martysampson.com page structure
+- `20-MartySampson/Content/youtube-ideas.md` — 25+ video ideas across 4 Marty content pillars
+- `20-MartySampson/Website/about-page-draft.md` — draft copy for the About page
+
+Admin:
+- `30-37Metrics/Admin/domain-inventory.md` — all domains with email config
+- `30-37Metrics/Admin/account-registry.md` — platform account registry with status
+
+Meta:
+- `90-Meta/folder-conventions.md` — two-digit prefix system and placement routing guide
+- `90-Meta/tag-taxonomy.md` — full frontmatter schema and Obsidian Bases query examples
+- `90-Meta/vault-readme.md` — vault orientation guide
+
+Pages updated:
+- `90-Meta/index.md` — added 20 new entries across Infrastructure, Admin, Content, Brand, Vault Meta tables
+
+Files NOT filled (require Marty's personal data):
+- `50-Personal/` health files — medical history, conditions, meds, labs
+- Marty personal profile specifics (career history, education)
+- Consulting pricing
+- Speaker bio
+- Personal finances
+
+---
+
 ## [2026-04-19] setup | LLM Wiki integration and vault reorganization
 
 - Integrated LLM Wiki pattern into vault (CLAUDE.md updated with ingest/query/lint protocols)
