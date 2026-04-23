@@ -184,6 +184,19 @@ Obsidian Bases uses frontmatter properties to generate filtered pipeline views.
 
 Internal links use `[[Note Name]]` or `[[Note Name|Display Text]]`. Always link to related pages when they exist — cross-references are the value of the wiki.
 
+## Development Suite Context
+
+Claude Code is the primary Development Suite operator for all Dimension42 software products. When working on a software project, follow this protocol:
+
+1. **Check the handoff package first.** Before writing any code, read `05-Projects/Active/[name]/handoff/_index.md`. The handoff package is the primary specification — it defines what to build, not just how.
+2. **Consult ADRs before architectural decisions.** ADRs live in `handoff/adr/`. Accepted ADRs are binding constraints. Do not re-litigate settled decisions. Create a new ADR if a genuinely new decision arises during implementation, and flag it for Director review.
+3. **Follow the model routing policy.** The handoff package includes a model routing policy specifying which tasks should route to cheaper or local model tiers. Default: Claude Code handles everything; route down only for boilerplate and high-volume mechanical work.
+4. **Surface questions, don't guess.** If a decision isn't covered by the handoff package, surface it to Marty rather than resolving it by assumption. The handoff package should be complete — gaps mean something needs to be answered at the business level first.
+5. **Checkpoint awareness.** Know which checkpoint the project is at. Between Checkpoints 4 and 5, the dev suite runs autonomously. Don't wait for Marty on decisions that are covered by the handoff — do wait (and ask) on decisions that aren't.
+6. **Commit discipline.** Every commit should reference its backlog item. Every PR should link to the relevant spec section in the handoff package.
+
+See [[operating-model]] for the full two-suite architecture and [[handoff-package-spec]] for what's in a handoff package.
+
 ## IronMarty Health System
 
 Marty's health tracking system lives in `50-Personal/Health/`:

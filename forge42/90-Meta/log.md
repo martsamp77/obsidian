@@ -12,6 +12,42 @@ grep "^## \[" 90-Meta/log.md | tail -5
 
 ---
 
+## [2026-04-22] ingest | Agentic SaaS Model — Zero Human Company operating methodology
+
+Source: "The Agentic SaaS Model: The Zero Human Company Approach to Product Development"
+
+Pages created:
+- `60-Knowledge/Sources/agentic-saas-model.md` — raw source (immutable)
+- `30-37Metrics/Admin/operating-model.md` — two-suite architecture adapted to 37Metrics/D42 context
+- `40-Forge42/Architecture/agent-org-chart.md` — full agent workforce (Business Suite roles + Dev Suite tiers)
+- `40-Forge42/Architecture/handoff-package-spec.md` — complete handoff package spec with artifact ownership
+- `40-Forge42/Architecture/model-routing-policy.md` — default model routing policy for the dev suite
+- `02-Templates/project-handoff.md` — handoff package `_index.md` template
+- `02-Templates/project-checkpoint-schedule.md` — 7-checkpoint Director schedule template
+
+Pages updated:
+- `CLAUDE.md` — added Development Suite Context section (handoff package protocol, ADR discipline, checkpoint awareness)
+- `20-MartySampson/zero-human-narrative.md` — added The Director Role section with 7 checkpoints
+- `30-37Metrics/Admin/mission.md` — added operating model reference
+- `30-37Metrics/Admin/37metrics-empire.md` — added operating model wikilink
+- `90-Meta/index.md` — added Operating Model table + new entries
+
+Key decisions:
+- Agent roles are workflow roles, not named personas
+- Eddie/OpenClaw is separate from this model (personal use only)
+- Paperclip Hermes is an existing external tool (Business Suite orchestrator)
+- Business Planning Suite is target state; Dev Suite (Claude Code) is operational now
+
+---
+
+## [2026-04-22] update | Created 37Metrics mission document
+
+- Created `30-37Metrics/Admin/mission.md` — formal mission and purpose statement for 37Metrics LLC
+- Added wikilink from `37metrics-empire.md` References section
+- Added to `90-Meta/index.md`
+
+---
+
 ## [2026-04-19] setup | LLM Wiki integration and vault reorganization
 
 - Integrated LLM Wiki pattern into vault (CLAUDE.md updated with ingest/query/lint protocols)

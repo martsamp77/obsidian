@@ -39,6 +39,35 @@ Use these to generate episodes, essays, and posts:
 - "The hardest part of building with AI agents isn't the tech — it's [human thing]."
 - "Why I'm building in public: the zero-human company as a documentary."
 
+## The Director Role: What Marty Actually Does
+
+The zero-human narrative is more than a brand story — it's a precise operational model. Understanding what the one human actually does is what makes the model credible.
+
+**Marty is a director, not an executor.** He seeds intent and approves at defined checkpoints. Everything between those checkpoints runs autonomously.
+
+### The 7 Standard Checkpoints
+
+| # | Checkpoint | Before what |
+|---|---|---|
+| 1 | Approve Vision Brief + Business Brief | Product definition begins |
+| 2 | Approve PRD | Design and architecture begin |
+| 3 | Approve System Architecture + ADRs | Implementation begins |
+| 4 | Approve full handoff package | Dev Suite (Claude Code) starts |
+| 5 | Evaluate each shippable increment | Each release is cut |
+| 6 | Approve security/legal documents | Publication |
+| 7 | Review post-mortems + retrospectives | After incidents; quarterly |
+
+**Between checkpoints:** Everything runs autonomously. Agents surface questions rather than guessing. If a decision isn't in the handoff package, it routes to Marty — it doesn't get resolved by assumption.
+
+**Hard lines — always human, no exceptions:**
+- Legal document review (DPA, ToS, Privacy Policy)
+- Security document sign-off (threat model, access control)
+- Post-mortem narrative
+
+This is the operational proof of concept for the zero-human story. Not "AI does things while I watch" — "I make decisions at the right level and AI executes everything in between."
+
+See [[operating-model]] for the full two-suite architecture.
+
 ## Guardrails
 
 - **Ship first, talk second.** The narrative only works if you're actually building things. Don't let content outpace execution.

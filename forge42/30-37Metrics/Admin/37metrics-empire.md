@@ -106,6 +106,8 @@ updated: 2026-04-19
 
 Detailed strategy lives where it belongs across the vault:
 
+- **Mission & purpose:** [[mission]] — why 37Metrics exists and what it's building toward
+- **Operating model:** [[operating-model]] — the Two-Suite Architecture: how 37Metrics builds and ships products
 - **Brand & naming:** [[naming-strategy]] — Tier 1 (public) and Tier 2 (community) naming rules
 - **Infrastructure naming:** [[naming-conventions]] — Tier 3 machine/service naming
 - **Social handles:** [[handle-registry]] — All platform handles with status tracking

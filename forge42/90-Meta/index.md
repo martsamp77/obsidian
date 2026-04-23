@@ -11,11 +11,22 @@ Catalog of significant wiki pages. Claude updates this on every ingest and when 
 
 ---
 
+## Operating Model
+
+| Page | Category | Summary | Updated |
+|---|---|---|---|
+| [[operating-model\|Operating Model]] | Strategy | Two-Suite Architecture: how 37Metrics builds and ships Dimension42 products | 2026-04-22 |
+| [[agent-org-chart\|Agent Org Chart]] | Infrastructure | Full agent workforce — Business Suite roles + Dev Suite model tiers | 2026-04-22 |
+| [[handoff-package-spec\|Handoff Package Spec]] | Infrastructure | What a complete handoff package contains; who produces/consumes each artifact | 2026-04-22 |
+| [[model-routing-policy\|Model Routing Policy]] | Infrastructure | Default policy: which task types route to which model tier | 2026-04-22 |
+
 ## Strategy & Brand
 
 | Page | Category | Summary | Updated |
 |---|---|---|---|
 | [[37metrics-empire\|37Metrics Empire]] | Strategy | Corporate hierarchy, naming system, content platform map, action checklist | 2026-04-19 |
+| [[mission\|37Metrics Mission]] | Strategy | Why 37Metrics exists, what it enables, the guiding principle | 2026-04-22 |
+| [[60-Knowledge/Sources/agentic-saas-model\|Agentic SaaS Model (source)]] | Strategy | Raw source: Zero Human Company operating methodology document | 2026-04-22 |
 | [[zero-human-narrative\|Zero Human Narrative]] | Brand | Core Marty Sampson brand story: building a company with AI, zero employees | 2026-04-19 |
 | [[naming-strategy\|Naming Strategy]] | Brand | Three-tier naming convention: public, community (Forge), infrastructure | 2026-04-19 |
 | [[handle-registry\|Handle Registry]] | Brand | All social platform handles for D42, Marty, and 37Metrics with status | 2026-04-19 |
