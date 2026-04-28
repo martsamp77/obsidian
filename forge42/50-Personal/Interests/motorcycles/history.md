@@ -1,3 +1,0 @@
-# Motorcycles history
-
-Placeholder.

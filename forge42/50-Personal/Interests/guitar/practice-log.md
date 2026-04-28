@@ -1,3 +1,0 @@
-# Guitar practice log
-
-Placeholder.

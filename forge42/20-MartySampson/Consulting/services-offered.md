@@ -1,3 +1,0 @@
-# Services offered
-
-Placeholder.

@@ -1,3 +1,0 @@
-# BAAS blueprint
-
-Placeholder.

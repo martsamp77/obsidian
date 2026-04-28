@@ -1,3 +1,0 @@
-# Dad (BigDog)
-
-Placeholder.

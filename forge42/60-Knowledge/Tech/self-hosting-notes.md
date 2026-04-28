@@ -1,3 +1,0 @@
-# Self-hosting notes
-
-Placeholder.

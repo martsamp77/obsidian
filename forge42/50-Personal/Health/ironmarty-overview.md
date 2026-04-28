@@ -1,3 +1,0 @@
-# IronMarty overview
-
-Placeholder.

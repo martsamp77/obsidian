@@ -1,3 +1,0 @@
-# Org structure
-
-Placeholder.

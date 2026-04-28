@@ -1,3 +1,0 @@
-# Example lab result
-
-Placeholder.

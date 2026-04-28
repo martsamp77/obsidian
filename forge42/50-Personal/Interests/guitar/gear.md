@@ -1,3 +1,0 @@
-# Guitar gear
-
-Placeholder.

@@ -1,3 +1,0 @@
-# SaaS metrics
-
-Placeholder.

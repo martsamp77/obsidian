@@ -1,3 +1,0 @@
-# Tool comparison matrix
-
-Placeholder.

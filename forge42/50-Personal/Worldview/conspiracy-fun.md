@@ -1,3 +1,0 @@
-# Conspiracy fun
-
-Placeholder.

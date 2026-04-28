@@ -1,2 +1,0 @@
-Russel Reynolds
-Korn Ferry

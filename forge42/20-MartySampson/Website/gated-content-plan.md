@@ -1,3 +1,0 @@
-# Gated content plan
-
-Placeholder.

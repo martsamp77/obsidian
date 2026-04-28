@@ -1,3 +1,0 @@
-# Uncle Blaine
-
-Placeholder.

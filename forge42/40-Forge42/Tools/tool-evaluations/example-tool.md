@@ -1,3 +1,0 @@
-# Example tool evaluation
-
-Placeholder.

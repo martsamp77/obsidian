@@ -1,3 +1,0 @@
-# Subscription audit
-
-Placeholder.

@@ -1,3 +1,0 @@
-# OpenClaw development log
-
-Placeholder.

@@ -1,3 +1,0 @@
-# OpenClaw docs
-
-Placeholder.
