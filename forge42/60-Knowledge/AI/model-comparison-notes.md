@@ -1,0 +1,3 @@
+# Model comparison notes
+
+Placeholder.
